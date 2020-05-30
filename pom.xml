@@ -31,9 +31,8 @@
     <scm>
         <url>https://github.com/rawnly/logre-java</url>
         <connection>scm:git:https://github.com/rawnly/logre-java.git</connection>
-        <developerConnection>scm:git:ssh//git@github.com/rawnly/logre-java.git</developerConnection>
-      <tag>0.0.1</tag>
-  </scm>
+        <tag>0.0.1</tag>
+    </scm>
 
 
     <properties>
