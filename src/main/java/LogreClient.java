@@ -37,6 +37,7 @@ public class LogreClient {
         this.proxy = null;
     }
 
+
     public LogreClient(String boxId, Class<?> aClass) {
         this.boxId = boxId;
         this.aClass = aClass;
@@ -48,9 +49,9 @@ public class LogreClient {
     private HttpRequestWithBody prepareRequest() {
         Config config = Unirest.config();
 
-        if (authToken != null) {
-            config.addDefaultHeader("Authorization", authToken);
-        }
+        Optional.ofNullable(authToken).ifPresent(token -> {
+            config.addDefaultHeader("Authorization", token);
+        });
 
         Optional.ofNullable(proxy).ifPresent(p -> {
             if (p.getUsername() == null || p.getPassword() == null)  {
