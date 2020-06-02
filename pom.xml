@@ -4,7 +4,7 @@
 
     <groupId>com.github.rawnly</groupId>
     <artifactId>logre-client-java</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <name>Logre.IO Client</name>
     <description>Simple tool to log directly on Logre.IO</description>
@@ -31,7 +31,7 @@
     <scm>
         <url>https://github.com/rawnly/logre-java</url>
         <connection>scm:git:https://github.com/rawnly/logre-java.git</connection>
-        <tag>logre-client-java-1.0.1</tag>
+        <tag>0.0.1</tag>
     </scm>
 
 
