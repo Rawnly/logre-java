@@ -1,5 +1,5 @@
 # LogreIO Java Client (Docs)
-> Java driver to send logs to [Logre.IO]
+> Java driver to send logs to [Logre.IO](https://logre.io)
 
 ## Installation
 ```xml
@@ -24,4 +24,20 @@ class HelloWorld {
 		System.out.println("Hello World!");
 	}
 }
+```
+
+### Available Constructors
+- `LogreClient(String boxId, String authToken, Class<?> aClass)`
+- `LogreClient(String boxId, Class<?> aClass)`
+
+### Proxy requests
+LogreClient uses Unirest under the hood, so you can easily setup a proxy via the `setProxy` method.
+```java
+	private final LogreClient log = new LogreClient(...) 
+	
+	
+	// Later somewhere in your code
+	log.setProxy(String host, int port) 
+	// or
+	log.setProxy(String host, int port, String username, String password) 
 ```
