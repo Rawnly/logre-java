@@ -1,4 +1,4 @@
-package com.fedevitaledev.LogreClient.models;
+package com.github.rawnly.models;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.fedevitaledev.LogreClient.enums;
+package com.github.rawnly.enums;
 
 public enum Severity {
     INFO("info"),

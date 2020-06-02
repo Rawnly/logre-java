@@ -1,15 +1,15 @@
-package com.fedevitaledev.LogreClient;
+package com.github.rawnly;
 
-import com.fedevitaledev.LogreClient.enums.Severity;
+import com.github.rawnly.enums.Severity;
 import kong.unirest.Config;
 import kong.unirest.HttpRequestWithBody;
 import kong.unirest.HttpResponse;
 import kong.unirest.Unirest;
 import lombok.Getter;
 import lombok.Setter;
-import com.fedevitaledev.LogreClient.models.LogError;
-import com.fedevitaledev.LogreClient.models.LogPayload;
-import com.fedevitaledev.LogreClient.models.ProxyConfig;
+import com.github.rawnly.models.LogError;
+import com.github.rawnly.models.LogPayload;
+import com.github.rawnly.models.ProxyConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
