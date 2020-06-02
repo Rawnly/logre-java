@@ -1,13 +1,15 @@
-import enums.Severity;
+package com.fedevitaledev.LogreClient;
+
+import com.fedevitaledev.LogreClient.enums.Severity;
 import kong.unirest.Config;
 import kong.unirest.HttpRequestWithBody;
 import kong.unirest.HttpResponse;
 import kong.unirest.Unirest;
 import lombok.Getter;
 import lombok.Setter;
-import models.LogError;
-import models.LogPayload;
-import models.ProxyConfig;
+import com.fedevitaledev.LogreClient.models.LogError;
+import com.fedevitaledev.LogreClient.models.LogPayload;
+import com.fedevitaledev.LogreClient.models.ProxyConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

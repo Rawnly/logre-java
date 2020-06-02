@@ -1,4 +1,4 @@
-package models;
+package com.fedevitaledev.LogreClient.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

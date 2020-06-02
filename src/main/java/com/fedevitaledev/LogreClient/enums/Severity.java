@@ -1,4 +1,4 @@
-package enums;
+package com.fedevitaledev.LogreClient.enums;
 
 public enum Severity {
     INFO("info"),
