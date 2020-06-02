@@ -14,7 +14,7 @@
 ```java
 class HelloWorld {
 	// Initialize the class
-	private static final LogreClient log = new LogreClient("<boxId>", "<auth-token>", MyClass.self);
+	private static final LogreClient log = new LogreClient("<boxId>", "<auth-token>", MyClass.class);
 
 	public static void main(String[] args) {
 		// Start Logging!
