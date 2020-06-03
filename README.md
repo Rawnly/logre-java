@@ -1,5 +1,7 @@
 # Java Driver for [LogreIO](https://logre.io)
-> Java driver to send logs to **[Logre.IO](https://logre.io)**
+Java driver to send logs to **[Logre.IO](https://logre.io)**
+
+> Are you a GoLang developer? Check out the [Go driver](https://github.com/Rawnly/logre-client-go) for Logre.IO
 
 ## Installation
 ```xml
